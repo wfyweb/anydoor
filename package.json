@@ -1,0 +1,28 @@
+{
+  "name": "anydoor",
+  "version": "1.0.0",
+  "description": "利用node打造一个静态资源服务器",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-eslint": "^8.2.3",
+    "eslint": "^4.19.1",
+    "pre-commit": "^1.2.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint":"eslint .",
+    "fix":"eslint --fix ."
+  },
+  "pre-commit":["lint","fix"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wfyweb/anydoor.git"
+  },
+  "author": "wfyweb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wfyweb/anydoor/issues"
+  },
+  "homepage": "https://github.com/wfyweb/anydoor#readme"
+}
